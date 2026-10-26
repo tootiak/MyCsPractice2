@@ -47,3 +47,25 @@ Console.WriteLine(2*3.14*R*R);
 Console.ResetColor();
 //End
 #endregion
+#region 
+//Practice 3
+Console.ForegroundColor=ConsoleColor.DarkGreen;
+Console.WriteLine("Calculating the Average!");
+Console.ResetColor();
+await Task.Delay(1000);
+Console.Write("Enter number(1/3): ");
+var N1=Convert.ToInt32(Console.ReadLine());
+await Task.Delay(1000);
+Console.Write("Enter number(2/3): ");
+var N2=Convert.ToInt32(Console.ReadLine());
+await Task.Delay(1000);
+Console.Write("Enter number(3/3): ");
+var N3=Convert.ToInt32(Console.ReadLine());
+await Task.Delay(1000);
+Console.Write("The Average is: ");
+await Task.Delay(1000);
+Console.ForegroundColor=ConsoleColor.DarkGreen;
+Console.Write((N1+N2+N3)/3);
+Console.ResetColor();
+//End
+#endregion
